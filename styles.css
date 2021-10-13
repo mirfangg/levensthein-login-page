@@ -1,0 +1,33 @@
+.loginPage {
+  /* background-color: #f3f4f6; */
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.loginSection {
+  padding: 130px 0;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.headerTitle {
+  text-align: center;
+}
+
+.headerTitle h3 {
+  font-size: 32px;
+}
+
+.companyLogo {
+  text-align: center;
+}
+
+.companyLogo img {
+  width: 320px;
+}
