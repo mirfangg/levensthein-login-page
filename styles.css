@@ -1,33 +1,42 @@
-.loginPage {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  font-family: "Open Sans", sans-serif;
-  height: 100vh;
+/* Desktop */
+@media (min-width: 992px) {
+  .loginPage {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .loginSection {
+    padding: 130px 0;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  .headerTitle {
+    text-align: center;
+  }
+
+  .headerTitle h3 {
+    font-size: 32px;
+  }
+
+  .companyLogo {
+    text-align: center;
+  }
+
+  .companyLogo img {
+    width: 320px;
+  }
 }
 
-.loginSection {
-  padding: 130px 0;
-}
-
-.card {
-  border-radius: 12px;
-}
-
-.card-body {
-  padding: 1.5rem;
-}
-
-.headerTitle {
-  text-align: center;
-}
-
-.headerTitle h3 {
-  font-size: 32px;
-}
-
-.companyLogo {
-  text-align: center;
-}
-
-.companyLogo img {
-  width: 320px;
+/* Highres Desktop */
+@media (min-width: 1400px) {
+  .loginPage {
+    height: 115vh;
+  }
 }
